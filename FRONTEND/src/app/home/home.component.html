@@ -1,0 +1,31 @@
+<app-header></app-header>
+<div class="container">
+  <h4 class="p-2 border-bottom border-success">Products</h4>
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let p of list">
+      <div class="card">
+        <div class="card-header text-center">
+          <h6>{{ p.pname }}</h6>
+        </div>
+        <img
+          class="card-img-top m-2"
+          src="http://localhost:8080/{{ p.photo }}"
+          alt="Card image cap"
+          style="width: 90%; height: 150px"
+        />
+        <div class="card-body text-center">
+          <p class="card-text">
+            {{ p.category.catname }}
+          </p>
+          <p>Price: &#8377; {{ p.price }}</p>
+          <button (click)="addtocart(p.id)" class="btn btn-primary btn-sm mr-2">
+            Add to Cart
+          </button>
+          <button (click)="addtowishlist(p.id)" class="btn btn-success btn-sm">
+            Add to Wishlist
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

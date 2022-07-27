@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+<connection name="" uri="https://192.168.99.100:2376" cert="C:\Users\rkdak\.docker\machine\machines\default"/>
+<connection name="" uri="https://192.168.99.100:2376" cert="C:Userskdak.dockermachinemachinesdefault"/>
+</connections>

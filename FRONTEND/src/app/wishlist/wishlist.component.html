@@ -1,0 +1,41 @@
+<app-header></app-header>
+<div class="container">
+  <h4>My Wishlist</h4>
+  <div class="row">
+    <div class="col-sm-8">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of list">
+            <td>
+              <img
+                src="http://localhost:8080/{{ p.product.photo }}"
+                style="width: 80px"
+                class="mr-2"
+              />{{ p.product.pname }}
+            </td>
+            <td>{{ p.product.category.catname }}</td>
+            <td>{{ p.product.descr }}</td>
+            <td>{{ p.product.price }}</td>
+            <td>
+              <button
+                (click)="removefromwishlist(p.id)"
+                class="btn btn-danger btn-sm"
+              >
+                Remove
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

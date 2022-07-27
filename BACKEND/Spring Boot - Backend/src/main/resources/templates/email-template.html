@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Template</title>
+</head>
+<body>
+
+<h1>This is just a sample html page</h1>
+
+<h2>Below are the details that were passed to the html page</h2>
+
+<p th:text="${'Name    : ' + name}"></p>
+<p th:text="${'Age     :' + age}"></p>
+<p th:text="${'Country : ' + country}"></p>
+
+<p><b>You can create the page the way you wish to have your Email body using HTML tags</b></p>
+
+<p><b>Bootstrap can be added to design. Images can be added. All according to your preference</b></p>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+<app-header></app-header>
+<div class="row">
+  <div class="col-sm-4 mx-auto">
+    <div class="card shadow" style="margin-top: 10px">
+      <div class="card-header bg-white">
+        <h4>Customer Registeration</h4>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="fg" (submit)="registeruser(fg.value)" novalidate>
+          <div class="form-group">
+            <input
+              type="text"
+              formControlName="name"
+              required
+              name="name"
+              placeholder="Customer Name"
+              class="form-control"
+            />
+            <small
+              class="form-text text-danger"
+              *ngIf="submitted && !fg.controls['name'].valid"
+              >Name must be given</small
+            >
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              formControlName="city"
+              required
+              name="city"
+              placeholder="City"
+              class="form-control"
+            />
+            <small
+              class="form-text text-danger"
+              *ngIf="submitted && !fg.controls['city'].valid"
+              >City must be given</small
+            >
+          </div>
+          <div class="form-group">
+            <select
+              formControlName="gender"
+              required
+              name="gender"
+              class="form-control"
+            >
+              <option value="">Select Gender</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            <small
+              class="form-text text-danger"
+              *ngIf="submitted && !fg.controls['gender'].valid"
+              >Gender must be selected</small
+            >
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              formControlName="userid"
+              required
+              name="userid"
+              placeholder="Email Id"
+              class="form-control"
+            />
+            <small
+              class="form-text text-danger"
+              *ngIf="submitted && !fg.controls['userid'].valid"
+              >Email id must be given</small
+            >
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              maxlength="10"
+              formControlName="phone"
+              required
+              name="phone"
+              placeholder="Mobile No"
+              class="form-control"
+            />
+            <small
+              class="form-text text-danger"
+              *ngIf="submitted && !fg.controls['userid'].valid"
+              >Mobile no must be given</small
+            >
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              formControlName="pwd"
+              required
+              name="pwd"
+              placeholder="Password"
+              class="form-control"
+            />
+            <small
+              class="form-text text-danger"
+              *ngIf="submitted && !fg.controls['pwd'].valid"
+              >Password must be given</small
+            >
+          </div>
+          <input
+            type="submit"
+            value="Register"
+            class="btn btn-primary float-right"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

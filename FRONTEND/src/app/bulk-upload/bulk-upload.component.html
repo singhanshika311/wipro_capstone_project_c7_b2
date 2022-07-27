@@ -1,0 +1,54 @@
+<app-header></app-header>
+<div class="csv-file-chooser-section">
+
+    <input type="file" #fileImportInput name="File Upload" id="csvFileUpload" (change)="fileChangeListener($event)"
+      accept=".csv" />
+  
+    <label>
+      BULK DATA UPLOAD
+    </label>
+    <select aria-placeholder="Parse headers?" [(ngModel)]="header">
+      <option [value]="true">Yes</option>
+      <option [value]="false">No</option>
+    </select>
+  </div>
+  
+  <div class="csv-result-table">
+  
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Product Name</th>
+          <th>Product Details</th>
+          <th>Email of Distributor</th>
+          <th>Phone Number</th>
+          <th>Address</th>
+  
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let csvData of csvRecords;let i = index;">
+  
+          <td>{{i+1}}</td>
+          <td>
+            <span>{{csvData.firstName}}</span>
+          </td>
+          <td>
+            <span>{{csvData.lastName}}</span>
+          </td>
+          <td>
+            <span>{{csvData.email}}</span>
+          </td>
+          <td>
+            <span>{{csvData.phoneNumber}}</span>
+          </td>
+          <td>
+            <span>{{csvData.Address}}</span>
+          </td>
+    
+        </tr>
+      </tbody>
+    </table>
+  
+  </div>
