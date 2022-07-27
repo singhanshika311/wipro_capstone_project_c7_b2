@@ -4,7 +4,7 @@
 This is a Single Page Appliaction with client-side rendering. It includes [backend](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/tree/master/BACKEND) and [frontend](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/tree/master/FRONTEND) two seperate projects on different branches.
 E-Commerce application developed for performing Admin and Customer user role operations with respective user interfaces. Application is implemented in two parts:
 1. RESTfull web services: API's build using spring boot are used for handling all the back end operations 
-2. Front End: User interfaces designed and developed using Angular utilising web services for handling appropriate user actions.I also use [angular material] UI component library(https://material.angular.io/)for creating frontend component like navbar, buttons
+2. Front End: User interfaces designed and developed using Angular utilising web services for handling appropriate user actions.I also use [angular material](https://material.angular.io/) UI component library for creating frontend component like navbar, buttons
 The frontend client makes API calls to the backend server when it is running.
 
 ## How to  Run
