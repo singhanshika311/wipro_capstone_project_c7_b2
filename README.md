@@ -7,6 +7,33 @@ E-Commerce application developed for performing Admin and Customer user role ope
 2. Front End: User interfaces designed and developed using Angular utilising web services for handling appropriate user actions.I also use [angular material](https://material.angular.io/) UI component library for creating frontend component like navbar, buttons
 The frontend client makes API calls to the backend server when it is running.
 
+#### Features available based on the user role
+* Admin
+  * Adding products
+  * Adding catagories
+  * Updating products
+  * Deleting products
+  * Manage Orders
+  * View user
+  * Can send email
+  * Can upload bulk data in csv format
+* Customer
+  * Registering into System
+  * Login into Website
+  * Add product in wishlist
+  * Adding product to Cart
+  * Updating/ Deleting the Product in cart as well as in wishlist
+  * Placing the order
+
+* Technologies: 
+  * Angular8 (https://material.angular.io/)
+  * Typescript
+  * Spring Boot
+  * Hibernate with JPA 
+  * MySQL
+  
+
+
 ## How to  Run
 
 Start the backend server before the frontend client.  
