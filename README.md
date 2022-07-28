@@ -43,10 +43,10 @@ The frontend client makes API calls to the backend server when it is running.
  * Customer
     * <b>Home</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_dashboard.jpeg)
-        
-    * User profile 
+        <br>
+    * <b>User profile</b>
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_profile.jpeg)
-        
+        <br>
     * Customer cart functionality 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_cart_functionality.jpeg)
         
