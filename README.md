@@ -34,7 +34,7 @@ The frontend client makes API calls to the backend server when it is running.
  
  #### Application screenshots
  
-* <b>Login</b> 
+* <b><u>Login</u></b> 
     ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/login.jpeg)
 * <b>Register</b> 
     ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/register.jpeg)
