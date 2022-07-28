@@ -39,11 +39,11 @@ The frontend client makes API calls to the backend server when it is running.
     ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/register.jpeg)
 * Customer 
     * Home 
-        ![Image of screenshot](https://github.com/cyela/Angular-Springboot/blob/master/src/assets/Screenshots/CustHome.png)
-    * Address 
-        ![Image of screenshot](https://github.com/cyela/Angular-Springboot/blob/master/src/assets/Screenshots/CustAddress.png)
-    * Cart 
-        ![Image of screenshot](https://github.com/cyela/Angular-Springboot/blob/master/src/assets/Screenshots/CartScreen.png)
+        ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/register.jpeg)
+    * Customer cart functionality 
+        ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_cart_functionality.jpeg)
+    * User order history 
+        ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_order_history.jpeg)
 * Admin 
     * Home
         ![Image of screenshot](https://github.com/cyela/Angular-Springboot/blob/master/src/assets/Screenshots/AdminHome.png)
