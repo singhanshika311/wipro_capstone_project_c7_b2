@@ -86,15 +86,16 @@ The frontend client makes API calls to the backend server when it is running.
  Eureka Server is service discovery for your microservices, where all client applications can register by themselves and other microservices look up the Eureka Server to get independent microservices to get the job complete.
 Eureka Server is also known as Discovery Server and it contains all the information about client microservices running on which IP address and port.
 To achieve this you need to create a Eureka Server application and add the below dependency in POM.xml.
+<h6>
 <dependency>
 <groupId>org.springframework.cloud</groupId>
 <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-</dependency>
+</dependency></h6>
 
- spring.application.name is a unique name for your application.
- server.port in which your application will be bound and wewill use default port 8761 for eureka server.
- eureka.client.fetch-registry doesn't register itself in eureka server.
- eureka.client.register-with-eureka is determines if service register itself as a client in eureka server.
+ * spring.application.name is a unique name for your application.
+ * server.port in which your application will be bound and wewill use default port 8761 for eureka server.
+ * eureka.client.fetch-registry doesn't register itself in eureka server.
+ * eureka.client.register-with-eureka is determines if service register itself as a client in eureka server.
 
  * <b>EUREKA SERVER</b>
      ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/eureka%20server.jpeg)
