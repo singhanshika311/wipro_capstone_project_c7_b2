@@ -41,7 +41,7 @@ The frontend client makes API calls to the backend server when it is running.
     <h3>USER FUNCTIONALITY</h3>
     
  * Customer
-    * Home 
+    * <b>Home</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_dashboard.jpeg)
         
     * User profile 
