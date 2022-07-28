@@ -34,7 +34,7 @@ The frontend client makes API calls to the backend server when it is running.
  
  #### Application screenshots
 * Login 
-    ![Image of screenshot](https://github.com/cyela/Angular-Springboot/blob/master/src/assets/Screenshots/LoginScreen.png)
+    ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/login.jpeg)
 * Register 
     ![Image of screenshot](https://github.com/cyela/Angular-Springboot/blob/master/src/assets/Screenshots/RegisterScreen.png)
 * Customer 
