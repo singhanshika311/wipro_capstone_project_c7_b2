@@ -87,10 +87,10 @@ The frontend client makes API calls to the backend server when it is running.
 Eureka Server is also known as Discovery Server and it contains all the information about client microservices running on which IP address and port.
 To achieve this you need to create a Eureka Server application and add the below dependency in POM.xml.
 <h6>
-`<dependency>
+<dependency>
 <groupId>org.springframework.cloud</groupId>
 <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-</dependency>`</h6>
+</dependency></h6>
 
  * spring.application.name is a unique name for your application.
  * server.port in which your application will be bound and wewill use default port 8761 for eureka server.
