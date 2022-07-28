@@ -33,9 +33,10 @@ The frontend client makes API calls to the backend server when it is running.
   * MySQL
  
  #### Application screenshots
-* Login 
+ 
+* <b>Login</b> 
     ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/login.jpeg)
-* Register 
+* <b>Register</b> 
     ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/register.jpeg)
     
     <h3>USER FUNCTIONALITY</h3>
@@ -43,39 +44,39 @@ The frontend client makes API calls to the backend server when it is running.
  * Customer
     * <b>Home</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_dashboard.jpeg)
-        <hr>
+        <br>
     * <b>User profile</b>
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_profile.jpeg)
         <br>
-    * Customer cart functionality 
+    * <b>Customer cart functionality</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_cart_functionality.jpeg)
-        
-    * Customer Wishlist functionality 
+        <br>
+    * <b>Customer Wishlist functionality</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_wishlist_functionality.jpeg)
-        
-    * User order history 
+        <br>
+    * <b>User order history</b>
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/user_order_history.jpeg)
         
         
     <h3>ADMIN FUNCTIONALITY</h3>
        
 * Admin 
-    * Home
+    * <b>Home</b>
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/admin%20dashboard.jpeg)
-        
-    * Add new catagory 
+        <br>
+    * <b>Add new catagory</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/admin%20add%20catatogies.jpeg)
-        
-    * Add new product 
+        <br>
+    * <b>Add new produc</b>t 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/admin%20add%20products.jpeg)
-        
-    * Bulk implementation 
+        <br>
+    * <b>Bulk implementation</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/admin%20bulk.jpeg)
-        
-    * Email functionality 
+        <br>
+    * <b>Email functionality</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/admin%20email.jpeg)
-        
-    * View user 
+        <br>
+    * <b>View user</b> 
         ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/admin%20can%20view%20user.jpeg)
 ---------
 
