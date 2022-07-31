@@ -100,6 +100,7 @@ To achieve this you need to create a Eureka Server application and add the below
  * <b>EUREKA SERVER</b>
      ![Image of screenshot](https://github.com/singhanshika311/wipro_capstone_project_c7_b2/blob/master/PROJECT%20IMAGES/eureka%20server.jpeg)
       <br>
+ ---------
 
 ## How to  Run
 
